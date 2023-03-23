@@ -144,7 +144,7 @@
 // method yang sering digunakan pada array
 // concat - include - indexOf - join - reverse - slice - splice - sort
 
-// // concat
+// // concat --> merge array
 // let array1 = [1, 2, 3];
 // let array2 = [4, 5, 6];
 
@@ -153,3 +153,43 @@
 
 // console.log(array3);
 // console.log(array4);
+
+// // include --> output boolean
+// const angka = [1, 2, 3, 4, 5];
+
+// console.log(angka.includes(2)); // true
+// console.log(angka.includes(12)); // false
+
+// // sort --> pengurutan
+
+// const namaHewan = ['Kucing', 'Sapi', 'Ayam', 'Bebek'];
+
+// namaHewan.sort(); // --> Mengurutkan sesuai alphabet
+// namaHewan.reverse(); // --> Mereverse
+// console.log(namaHewan);
+
+// // splice --> menambah bisa juga menggantikan
+
+// const months = ['Jan', 'March', 'June'];
+
+// months.splice(1, 0, 'Feb'); // --> Menambahkan Feb pada index 1 dan menggeser March menjadi index 2
+// months.splice(0, 2, 'Des'); // --> Mengganti index 0 menjadi Desember, 2 merupakan jumlah index yang akan dihapus
+
+// console.log(months);
+
+// // slice --> Menghapus elemen
+
+// const namaKota = ['Batang', 'Pekalongan', 'Cirebon', 'Bandung', 'Jogja', 'Cilacap'];
+
+// console.log(namaKota.slice(1)); // Menghilangkan nilai pertama
+// console.log(namaKota.slice(2, -1)); // Menghilangkan 2 nilai pertama dan 1 nilai dari belakang
+// console.log(namaKota.slice(2, 4)); // Memunculkan nilai dari indeks 2 sampai indeks 3
+
+// // join --> Menambahkan karakter dalam array
+
+// const iniKata = ["Hai", "Aku", "Saleh"];
+
+// console.log(iniKata.join(''));
+// console.log(iniKata.join(' ')); // Menambahkan spasi
+// console.log(iniKata.join('-')); // Menambahkan strip
+
