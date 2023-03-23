@@ -193,3 +193,19 @@
 // console.log(iniKata.join(' ')); // Menambahkan spasi
 // console.log(iniKata.join('-')); // Menambahkan strip
 
+// ==============================================================
+
+// const groupA = ["Dadang", "Septi", "Wahyu"];
+// groupA.push("Riki"); // Manipulasi nilai di dalam array
+// console.log(groupA);
+
+// ==============================================================
+
+// // multidimensional = nested array
+// const board = [
+//   [null, null, "o"],
+//   ["x", "o", null],
+//   ["o", "x", null],
+// ];
+
+// console.log(board);
