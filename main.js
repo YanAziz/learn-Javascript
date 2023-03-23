@@ -2,8 +2,12 @@
 // let tahunLamaMerdeka = 2023;
 // console.log(tahunLamaMerdeka - tahunMerdeka);
 
+// ==============================================================
+
 // let score = 1;
 // console.log(score);
+
+// ==============================================================
 
 // const merdeka = 1945;
 
@@ -11,8 +15,12 @@
 // const isLogin = false;
 // console.log(isLogin);
 
+// ==============================================================
+
 // let a = 'I can not "sleep"';
 // console.log(a);
+
+// ==============================================================
 
 // const nilaiUjian = 90;
 
@@ -28,6 +36,8 @@
 //   console.log("A");
 // }
 
+// ==============================================================
+
 // const thisDay = prompt("Isikan hari!").toLowerCase();
 
 // if (thisDay === "senin") {
@@ -37,6 +47,8 @@
 // } else {
 //   console.log("Biasa aja");
 // }
+
+// ==============================================================
 
 // const password = prompt("Isikan Password!");
 
@@ -79,6 +91,8 @@
 //   console.log("Akses Penuh");
 // }
 
+// ==============================================================
+
 // const balonku = prompt("Isikan warna").toLowerCase();
 // switch (balonku) {
 //   case "merah":
@@ -89,3 +103,53 @@
 //   default:
 //     console.log("Bukan balon saya");
 // }
+
+// ==============================================================
+
+// let hewan = ['Kambing', 'Ayam', 'Sapi', 'Anjing'];
+
+// hewan[1] = 3;
+
+// console.log(hewan);
+// console.log(hewan[3]);
+// console.log(hewan.length);
+// console.log(hewan[1]);
+
+// ==============================================================
+
+// let barbel = [];
+
+// // push - pop
+
+// barbel.push(20); //nilai pertama yang diletakkan
+// barbel.push(15, 10, 5, 2.5, 1);
+
+// barbel.pop() //mengambil nilai terakhir yang diletakkan
+
+// console.log(barbel);
+
+// ==============================================================
+
+// let barbel = [10, 5, 2.5, 1];
+
+// // unshift - shift
+
+// barbel.unshift(20, 15); //menambah nilai ke paling awal array
+// barbel.shift(); //mengambil nilai paling awal yang diletakkan
+
+// console.log(barbel);
+
+// ==============================================================
+
+// method yang sering digunakan pada array
+// concat - include - indexOf - join - reverse - slice - splice - sort
+
+// // concat
+// let array1 = [1, 2, 3];
+// let array2 = [4, 5, 6];
+
+// let array3 = array1.concat(array2);
+// let array4 = array2.concat(array1);
+
+// console.log(array3);
+// console.log(array4);
