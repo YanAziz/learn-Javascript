@@ -33,25 +33,25 @@
 // console.log(sepatu.warna);
 // console.log(sepatu.ukuran);
 
-// object di dalam array
-const rt1 = [
-  {
-    nama: "Herman",
-    umur: 19,
-    status: "belum menikah",
-  },
-  {
-    nama: "Sulis",
-    umur: 17,
-    status: "belum menikah",
-  },
-  {
-    nama: "Robert",
-    umur: 22,
-    status: "sudah menikah",
-  },
-];
+// // object di dalam array
+// const rt1 = [
+//   {
+//     nama: "Herman",
+//     umur: 19,
+//     status: "belum menikah",
+//   },
+//   {
+//     nama: "Sulis",
+//     umur: 17,
+//     status: "belum menikah",
+//   },
+//   {
+//     nama: "Robert",
+//     umur: 22,
+//     status: "sudah menikah",
+//   },
+// ];
 
-rt1[1].umur = 19;
+// rt1[1].umur = 19;
 
-console.log(rt1[1].umur);
+// console.log(rt1[1].umur);
