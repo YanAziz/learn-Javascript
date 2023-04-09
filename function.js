@@ -96,3 +96,21 @@
 // }
 
 // lamarKerja();
+
+// ==============================================================
+
+// function expression
+
+// function perpangkatan(nilai) {
+//   return nilai * nilai;
+// }
+
+// let hasil = perpangkatan();
+
+// console.log(perpangkatan(2));
+
+// const hasilPerpangkatan = function (nilai) {
+//   return nilai * nilai;
+// };
+
+// console.log(hasilPerpangkatan(4));
