@@ -114,3 +114,102 @@
 // };
 
 // console.log(hasilPerpangkatan(4));
+
+// ==============================================================
+
+// function sebagai argumen function lain
+
+// function duaKali(func) {
+//   func();
+//   func();
+// }
+
+// function lemparDadu() {
+//   const nilai = Math.floor(Math.random() * 6) + 1;
+//   console.log(nilai);
+// }
+
+// console.log(duaKali(lemparDadu));
+
+// ==============================================================
+
+// function bernilai balik function
+
+// function hasilnyaAdalahFunction() {
+//   const rand = Math.random() + 3;
+//   if (rand > 3) {
+//     return function () {
+//       console.log("Selamat Nilai lebih besar");
+//     };
+//   } else {
+//     return function () {
+//       console.log("Maaf Nilai rendah");
+//     };
+//   }
+// }
+
+// const result = hasilnyaAdalahFunction();
+
+// console.log(result());
+
+// ==============================================================
+
+//function
+// function myFun() { //function biasa
+//   console.log("Hi");
+//   return "Hello";
+// }
+
+// console.log(myFun());
+
+//method
+// const myMath = {
+//   //object
+//   perkalian: function (x, y) {
+//     //method
+//     return x * y;
+//   },
+// };
+
+// console.log(myMath.perkalian(2, 3));
+
+// ==============================================================
+
+// this adalah keyword untuk memanggil suatu property pada object yang sama
+// Tujuannya unuk mendapat nilainya
+
+// const saya = {
+//   nama: "Iqyan",
+//   hobi: "Makan",
+//   kenalan: function () {
+//     return `Hi, Saya ${this.nama}. Hobi saya ${this.hobi}`;
+//   },
+// };
+
+// console.log((saya.nama = "Siti"));
+// console.log(saya.kenalan());
+// console.log((saya.hobi = "Shopping"));
+// console.log(saya.kenalan());
+
+// ==============================================================
+
+// try n catch --> penting
+// try {
+//   Saya.kenalan();
+// } catch {
+//   console.log("Error!");
+// }
+
+// console.log(saya.kenalan());
+// console.log("Setelah proses try n catch");
+
+// function teriak(msg) {
+//   try {
+//     console.log(msg.toUpperCase());
+//   } catch (error) {
+//     console.log(error);
+//     console.log("Silahkan masukkan tipe data string!");
+//   }
+// }
+
+// console.log(teriak("Bang"));
