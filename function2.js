@@ -276,16 +276,3 @@
 // console.log(animeTerburuk);
 
 // ==============================================================
-
-// object This di dalam arrow function mengarah pada object global window
-
-// const person = {
-//   firstname: "John",
-//   lastname: "Doe",
-//   fullname: function () {
-//     // jika function diubah menjadi arrow function, akan menjadi global scope
-//     return `${this.firstname} ${this.lastname}`;
-//   },
-// };
-
-// console.log(person.fullname());
