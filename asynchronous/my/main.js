@@ -27,11 +27,42 @@ Cara Kerjanya
 */
 
 // ------------------------------------------------------------------
+
+// Callback Hell di Javascript bikin serem -- (Callback Hell)
+
 // ------------------------------------------------------------------
+
+// Latihan Request Pakai Callback Function -- (Request Callback)
+
 // ------------------------------------------------------------------
+
+// Latihan Request pakai Promise -- (Request Promise)
+
 // ------------------------------------------------------------------
+
+// Cara benar menggunakan Fungsi Promise -- (Promise)
+
 // ------------------------------------------------------------------
+
+// Cara membuat Promise -- (Create Promise)
+
 // ------------------------------------------------------------------
+
+// Fungsi Async Keyword -- (Async)
+
+/*
+Ada 2 bagian :
+1. Async
+2. Await
+
+Async
+- Fungsi Async akan otomatis menjadi promise
+- Kalo fungsinya punya data, maka resolve-nya akan mengirimkan data juga
+yang bisa diolah
+- Kalo di dalam function ada object throw error, maka akan menjalankan
+bagian reject
+*/
+
 // ------------------------------------------------------------------
 // ------------------------------------------------------------------
 // ------------------------------------------------------------------
