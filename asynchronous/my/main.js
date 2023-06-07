@@ -64,7 +64,22 @@ bagian reject
 */
 
 // ------------------------------------------------------------------
+
+// Fungsi Await Keyword -- (Await)
+
+/*
+
+Await 
+- Keyword await hanya bisa kita gunakan di dalam function dengan "async"
+- Await akan melakukan jeda proses selanjutnya di dalam function, menunggu
+promise yang dijalankan resolved
+
+*/
+
 // ------------------------------------------------------------------
+
+// Mengelola Kondisi Error dengan Async Await -- (Error Async Await)
+
 // ------------------------------------------------------------------
 // ------------------------------------------------------------------
 // ------------------------------------------------------------------

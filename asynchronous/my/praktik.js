@@ -254,7 +254,7 @@
 //   });
 // };
 
-// const delayColorChange = (color, delay) => {
+// const delayedColorChange = (color, delay) => {
 //   return new Promise((resolve, reject) => {
 //     setTimeout(() => {
 //       document.body.style.backgroundColor = color;
@@ -273,6 +273,65 @@
 
 // -----------------------------------------------------------------------------------------------------
 
-// Async 
+// Async
 
-function hello(){}
+// async function hello() {}
+
+// const hello = async () => {
+//   throw "Maaf ga kenal";
+//   //   return "hello world";
+// };
+
+// hello()
+//   .then((res) => {
+//     console.log("response", res);
+//   })
+//   .catch((err) => {
+//     console.log("error", err);
+//   });
+
+// -----------------------------------------------------------------------------------------------------
+
+// Await
+
+// async function changeColor() {
+//   await delayedColorChange("red", 1000);
+//   await delayedColorChange("blue", 1000);
+//   await delayedColorChange("green", 1000);
+//   await delayedColorChange("yellow", 1000);
+//   await delayedColorChange("black", 1000);
+//   return "All done!";
+// }
+
+// async function printRainbow() {
+//   await changeColor();
+//   console.log("All done! Dari printRainbow");
+// }
+
+// printRainbow();
+
+// -----------------------------------------------------------------------------------------------------
+
+// Error Async Await
+
+const requestPromise = (url) => {
+  return new Promise((resolve, reject) => {
+    const delay = Math.floor(Math.random() * 4500) + 500;
+    setTimeout(() => {
+      if (delay > 2000) {
+        reject("Error: Connection Timeout");
+      } else {
+        resolve(`Success: ${url} (${delay}ms)`);
+      }
+    }, delay);
+  });
+};
+
+async function requestHandler() {
+  try {
+    let result = await requestPromise("movie.com");
+    console.log(result);
+  } catch (error) {
+    console.log("Error", error);
+  }
+}
