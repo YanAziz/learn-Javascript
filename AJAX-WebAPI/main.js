@@ -93,17 +93,45 @@ TVMAZE
 
 // Mengenal Data di Http Header
 
+/*
+icanhazdadjoke
+
+Data header --> Key dan Value bisa diubah sesuai kebutuhan - Postman API
+*/
+
 // ------------------------------------------------------------------------------------------------
 
 // Melakukan Request dengan XML http Prequest
+
+/*
+Request by JavaScript
+
+XMLHttpRequest
+1. Cara "original" untuk mengirim request via Javascript
+2. Tidak mendukung promises, jadi ya bisa memungkinkan callback-hell
+3. Namanya susah diketik, aneh besar kecil tidak jelas
+
+*/
 
 // ------------------------------------------------------------------------------------------------
 
 // Melakukan Request dengan Fetch
 
+/*
+Fetch 
+1. Cara baru melakukan request via JavaScript
+2. Mendukung Promise
+3. Tidak mendukung di Internet Explorer
+
+*/
+
 // ------------------------------------------------------------------------------------------------
 
 // Melakukan Request dengan Library Axios
+
+/*
+Axios --> library pihak ketiga untuk melakukan request HTTP
+*/
 
 // ------------------------------------------------------------------------------------------------
 
